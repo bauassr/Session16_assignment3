@@ -22,6 +22,7 @@ The probability of failing in 3 subjects, P(X=3) = 0.03""")
 
 Dataset = np.array([0.8,0.1,0.7,0.03])    
 Df = pd.DataFrame(Dataset,columns={'X'})
+Df.describe()
 Mean=Df.mean()
 Std= Df.std()
 Df['Probablity density distribution'] = stats.norm.pdf(Df['X'],0,1)
