@@ -10,8 +10,7 @@ import scipy.stats as stats
 import matplotlib.pyplot as plt
 
 
-print("""For a random student, 
-
+print("""
 The probability of failing in 0 subjects, P(X=0) = 0.8
 
 The probability of failing in 1 subjects, P(X=1) = 0.1
